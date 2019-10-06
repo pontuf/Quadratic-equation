@@ -1,8 +1,4 @@
 import javax.swing.*;
-import java.awt.*;
-import java.awt.event.*;
-import java.applet.*;
-import java.net.*;
 import java.io.*;
 import java.util.*;
 
@@ -12,7 +8,7 @@ static int count;
 public static String alg(int num, BufferedReader br,String ur[]) throws Exception{
 	Random rand=new Random(num);
 	double a=0,b,c,D,x1=0,x2=0;
-	System.out.println("###Equation น"+num+"###");
+	System.out.println("###Equation ยน"+num+"###");
 	System.out.println("Enter first coefficient");
 	while (a==0) a=rand.nextInt(11);
 	System.out.println("Enter second coefficient");
