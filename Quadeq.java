@@ -8,7 +8,7 @@ public class Quadeq{
     public static String alg(int num, BufferedReader br,String ur[]) throws Exception{
         Random rand=new Random(num);
         double a=0,b,c,D,x1=0,x2=0;
-        System.out.println("###Equation ¹"+num+"###");
+        System.out.println("###Equation "+num+"###");
         System.out.println("Enter first coefficient");
         while (a==0) a=rand.nextInt(11);
         System.out.println("Enter second coefficient");
@@ -16,7 +16,7 @@ public class Quadeq{
         System.out.println("Enter third coefficient");
         c=rand.nextInt(11);
         s[0]="";
-        s[0]=Double.toString(a)+"x^2";
+        s[0]=Double.toString(a)+"x²";
         if (b>=0) s[0]=s[0]+"+";
         s[0]=s[0]+Double.toString(b)+"x";
         if (c>=0) s[0]=s[0]+"+";
